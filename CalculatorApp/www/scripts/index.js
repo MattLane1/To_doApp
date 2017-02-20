@@ -13,9 +13,10 @@ File: This is the JavaScript area of the application. The buttons are connected 
 
    /* Connect the buttons and watch for a user press */
     /*changes*/
-    var changes;
+    var tasks = 1;
+
     //Connect the buttons
-    document.getElementById("Add").onclick = function () { document.getElementById("toDo5").value = document.getElementById("display").value; };
+    document.getElementById("Add").onclick = function () { document.getElementById(("toDo"+tasks.toString())).value = document.getElementById("display").value; tasks++; };
     document.getElementById("toDo1").onclick = function () { document.getElementById("toDo5").value = "JJ" };
      
 

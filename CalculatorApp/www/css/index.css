@@ -115,11 +115,12 @@ h1 {
     font-size: 15px;
 }
 
-.equalsButton {
-    height:70px;
-    width:90px;
+.addButton {
+    height:30px;
+    width:175px;
+    margin:1px 0px;
+    font-size: 15px;
 }
-
 
 
 .resultBox {
@@ -129,5 +130,5 @@ h1 {
     width: 348px;
     margin:30px 0px;
     padding:5px 0px;
-    border:thick solid;
+    border:thin solid;
 }
